@@ -83,17 +83,21 @@ public class CadastroPessoaView extends JFrame {
 		btnPesquisar.setBounds(523, 29, 85, 21);
 		panel.add(btnPesquisar);
 		
-		JButton btnAdcionar = new JButton("Adcionar");
+		JButton btnAdcionar = new JButton("Adicionar");
+		btnAdcionar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		btnAdcionar.setMnemonic('A');
-		btnAdcionar.setBounds(10, 139, 85, 21);
+		btnAdcionar.setBounds(10, 139, 100, 21);
 		contentPane.add(btnAdcionar);
 		
 		JButton btnEditar = new JButton("Editar");
-		btnEditar.setBounds(145, 139, 85, 21);
+		btnEditar.setBounds(396, 140, 85, 21);
 		contentPane.add(btnEditar);
 		
 		JButton btnExcluir = new JButton("Excluir");
-		btnExcluir.setBounds(281, 139, 85, 21);
+		btnExcluir.setBounds(532, 140, 85, 21);
 		contentPane.add(btnExcluir);
 		
 		JScrollPane scrollPane = new JScrollPane();

@@ -5,13 +5,13 @@ public class GUIForm {
 
 	public static Login login= new Login();
 	public static Menu menu= new Menu();
-	public static AddAccount addaccount= new AddAccount();
-	public static AddCurrentAccount addcurrentacc= new AddCurrentAccount();
-	public static AddSavingsAccount addsavingsaccount = new AddSavingsAccount();
-	public static AddStudentAccount addstudentaccount = new AddStudentAccount();
-	public static DisplayList displaylist= new DisplayList();
-	public static DepositAcc depositacc= new DepositAcc();
-	public static WithdrawAcc withdraw = new WithdrawAcc();
+//	public static AddAccount addaccount= new AddAccount();
+//	public static AddCurrentAccount addcurrentacc= new AddCurrentAccount();
+//	public static AddSavingsAccount addsavingsaccount = new AddSavingsAccount();
+//	public static AddStudentAccount addstudentaccount = new AddStudentAccount();
+//	public static DisplayList displaylist= new DisplayList();
+//	public static DepositAcc depositacc= new DepositAcc();
+//	public static WithdrawAcc withdraw = new WithdrawAcc();
 	
 	/**
 	 * @wbp.parser.entryPoint

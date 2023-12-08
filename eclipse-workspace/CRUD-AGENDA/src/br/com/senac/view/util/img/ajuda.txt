@@ -1,0 +1,3 @@
+setIconImage(Toolkit.getDefaultToolkit().getImage(MenuSistemaView.class.getResource("/br/com/empresa/view/img/logosenac.jpg"))); 
+
+s.setIcon(new ImageIcon(ConsultaProdutoView.class.getResource("/br/com/empresa/view/img/novo.png")));
